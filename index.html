@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+    <title>Harry Potter Character Popularity Poll</title>
+</head>
+<body>
+  <div class="logo">
+    <h1>Harry Potter Character Popularity Poll</h1>
+  </div>
+
+  <div id="character-bar">
+    <!-- show characters names here -->
+  </div>
+
+  <div class="characterInfo">
+    <div id="detailed-info">
+      <p id="name">Character's Name</p>
+      <img
+        id="image"
+        src="./pics/images/HW LOGO.jpg" alt="character image"
+        alt="Character's Name"
+      /><!-- display character image here -->
+      <!-- <h4>Total Votes: <span id="vote-count"></span></h4> -->
+        
+        <h4 id="species">Species: </h4>
+        <h4 id="house">House: </h4>
+        <h4 id="wand">Wand: </h4>
+      <form id="votes-form">
+        <input type="text" placeholder="Enter Comment" id="votes" name="votes" />
+        <input type="submit" id="add-votes"value="Add Comment" />
+      </form>
+      <div id="comment-container"></div>
+        <!-- <div id="comment"></div>   -->
+        
+      <button id="reset-btn">Reset Votes</button>
+
+    </div>
+
+  
+  </div>
+  
+</body>
+</html>

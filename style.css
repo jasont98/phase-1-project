@@ -1,0 +1,82 @@
+html {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.cursor {
+  width: 30px;
+  height: 30px;
+}
+
+.logo{
+  text-align: center;
+  background-color: royalblue;
+  color: white;
+  padding: 0.5em;
+}
+
+#character-bar {
+  height: 15vh;
+  background: rgb(242, 204, 170);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 3vh;
+  display: grid;
+  grid-template-areas: "a a a a a a";
+  gap: 50px;
+  grid-auto-rows: 50px;
+  overflow-y: auto;
+}
+
+.animate-hover {
+  font-size: larger;
+}
+
+
+
+
+#character-bar span {
+  padding: 1%;
+  height: 80%;
+  width: 8vw;
+  display: flex;
+  justify-content: center;
+  font-size: 3vh;
+  align-items: center;
+  border-radius: 2em;
+  border: 1px solid white;
+
+}
+
+.characterInfo{
+  height: 1000px;
+  padding: 30px;
+  font-size: 24px;
+  border: dotted;
+  text-align: center;
+}
+
+input[type="submit"], button {
+  background-color: rgb(49, 109, 179);
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text"] {
+  font-size: 3vh;
+}
+
+#image{
+  width: 300px;
+  height: 300px;
+}
+
+
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;} /* End https://www.cursors-4u.com */
